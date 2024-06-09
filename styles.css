@@ -1,0 +1,19 @@
+.grid {
+    display: flexbox;
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.grid-container {
+    display: grid;
+    width: 320px;
+    height: 320px;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 2px;
+}
+
+
+
+
